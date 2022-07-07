@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react"
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -11,6 +12,8 @@ export const ItemMaster = () => {
         items : "",
         price : ""
     })
+
+    const navigate = useNavigate()
 
     useEffect(()=> getData(),[])
 
@@ -45,7 +48,7 @@ export const ItemMaster = () => {
                 <p>{el.id}.</p>
                 <p>{el.items}</p> 
                 <p>{el.price}</p>
-                <button> Add To Cart </button>
+                <button onClick={()=> navigate(`/cart/${el.id}`)}> Add To Cart </button>
             </div>
         ))}
         </>
