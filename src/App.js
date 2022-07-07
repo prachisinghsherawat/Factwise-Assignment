@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { ItemMaster } from './Components/Items';
+import { AllRoutes } from './Components/AllRoutes/AllRoutes';
+
 
 function App() {
 
   return (
     <div className="App">
-      <ItemMaster />
+      <AllRoutes />
     </div>
   );
 }
