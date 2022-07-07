@@ -1,0 +1,15 @@
+
+
+.itemBox{
+  margin: auto;
+  width: 30%;
+}
+
+#box{
+  margin: auto;
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  height: 40px;
+}

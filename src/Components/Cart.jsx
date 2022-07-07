@@ -5,7 +5,6 @@ export const Cart = () => {
 
     const [cartData , setCartData] = useState([])
 
-
     return(
 
         <>
