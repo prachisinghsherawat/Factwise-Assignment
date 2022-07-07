@@ -1,0 +1,10 @@
+{
+  "itemMaster": [
+    {
+      "items": "pizza",
+      "price": "300",
+      "id": 1
+    }
+  ],
+  "userCart": []
+}
